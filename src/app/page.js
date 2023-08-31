@@ -30,7 +30,7 @@ export default function Home() {
     }
   };
   return (
-    <main className=''>
+    <main className='flex flex-col'>
       <MotionConfig transition={{ duration: 2, ease: [0.32, 0.72, 0, 1] }}>
         <h1 className='text-4xl text-center font-bold mt-5'>Home Page</h1>
         <div className='flex flex-col justify-between items-center p-24'>
