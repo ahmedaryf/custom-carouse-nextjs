@@ -8,9 +8,9 @@ import {
 } from "react-icons/bi";
 
 const images = [
-  "/images/image1.jpg",
-  "/images/image2.jpg",
-  "/images/image3.jpg",
+  "/images/image5.jpg",
+  "/images/image6.jpg",
+  "/images/image7.jpg",
   "/images/image4.jpg",
 ];
 
@@ -70,7 +70,7 @@ export default function Home() {
                   <button key={index} onClick={() => setCurrent(index)}>
                     <div
                       className={`h-2 w-2 bg-slate-400 rounded-full ${
-                        index === current ? "bg-orange-600" : "bg-slate-500"
+                        index === current ? "bg-orange-700" : "bg-slate-500"
                       }`}></div>
                   </button>
                 );
